@@ -63,3 +63,8 @@ posture and contribute to a SOC or security engineering team.
 - CompTIA Security+ (planned)  
 - Azure Fundamentals (AZ-900)  
 - OCI Foundations  
+# 📬 Contact
+**Eduardo Hernandez**  
+Location: Texas  
+ehernandez5844@gmail.com
+linkedin.com/in/EduardoHerna
