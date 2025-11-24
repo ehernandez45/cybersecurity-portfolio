@@ -1,0 +1,27 @@
+Overview:
+This analysis reviews the current network architecture of a fictional small business. The
+organization operates a flat network with no segmentation and minimal monitoring.
+Network Components Reviewed:
+• ISP modem + router combo device
+• Single unmanaged switch
+• 12 workstations
+• 1 file server
+• Cloud database connection
+• Guest Wi-Fi network 
+Findings:
+1. Default router login credentials were still active.
+2. No network segmentation—everything shared the same broadcast domain.
+3. Open ports (22, 80, 445, 3389) discovered and not monitored.
+4. Guest Wi-Fi was bridged to the internal network.
+5. No IDS/IPS present for packet inspection.
+6. Firewall logging disabled.
+Recommendations:
+• Change all default router and admin passwords.
+• Create VLANs: Workstations, Servers, Guest, VoIP.
+• Disable unused ports and implement port-security.
+• Enable firewall logging and regular monitoring.
+• Introduce an IDS/IPS tool such as Snort or Suricata.
+Separate guest Wi-Fi from internal LAN immediately.
+Conclusion:
+The network is functional but insecure. Implementing segmentation, credential hardening, and
+monitoring will significantly improve the security posture and reduce the attack surface.
