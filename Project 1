@@ -1,0 +1,27 @@
+Project 1: Security Audit Report
+Overview:
+This security audit evaluates a fictional small business with 10 employees, a local file server,
+Wi-Fi network, and cloud-hosted CRM system. The objective is to identify risks, review existing
+policies, and recommend security improvements.
+Scope:
+• User account and password policy review
+• Operating system hardening review
+• Network and Wi-Fi security review
+• Software update and patching status
+• Access control and permission structure assessment
+Key Findings:
+1. Passwords were not enforced to meet complexity requirements.
+2. Multi-Factor Authentication (MFA) was not enabled for any critical system.
+3. Local administrator accounts existed on every workstation.
+4. Windows systems were missing patches older than 60 days.
+5. Wi-Fi router was using WPA2-Personal with a weak password.
+6. File share permissions were overly permissive (“Everyone: Read/Write”).
+Recommendations:
+• Enforce MFA across all systems.
+• Remove unnecessary local admin accounts.
+• Implement a patch management schedule.
+• Strengthen the Wi-Fi security to WPA3 and rotate passwords quarterly.
+• Apply the principle of least privilege for all file shares. Deploy centralized logging for better visibility.
+Conclusion:
+The business has foundational controls but lacks critical security practices. Implementing the
+recommended improvements will drastically reduce exposure to unauthorized access and malware.
